@@ -25,10 +25,8 @@ class Solution:
             mid = (right + left) // 2
             if self.__isPrime(self.table[mid]):
                 left = mid + 1
-                print("dziala")
             else:
                 right = mid
-                print("nie dziala")
         return self.table[left]
 
 
